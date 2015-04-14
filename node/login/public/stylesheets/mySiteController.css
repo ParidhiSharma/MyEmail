@@ -1,0 +1,77 @@
+html{
+    height: 100%;
+}
+
+body
+{
+    overflow: hidden;
+    height: 100%;
+    background: url("../images/background.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+/*footer{
+	bottom: 0;
+}*/
+
+.form-login a , .form-login a:hover{
+	color: #4B9D7D;
+}
+
+.form-signin a{
+	color: #ffffff;
+}
+
+#passwordLabel{
+    margin-left: 8%;
+    position: relative;
+}
+
+#password{
+    position: relative;
+}
+
+.title{
+	text-align: center;
+	color: #4B9D7D;
+}
+
+
+/*Layout HTML*/
+.control-label{
+	color: #4B9D7D;
+}
+
+.form-login{
+	width: 521px;
+  	background-color: rgb(27, 63, 72);
+  	margin-top: 12%;
+  	border-radius: 4%;
+}
+
+.form-login .form-group{
+	margin-top: 20px;
+}
+
+.form-login .btn{
+	background-color: #3c7870;
+  	color: #fff;
+  	border-color: #3c7870;
+}
+
+.form-signin{
+	width: 521px;
+  	background-color: rgb(27, 63, 72);
+  	margin-top: 12%;
+  	border-radius: 4%;
+}
+
+.form-signin .form-group{
+	margin-top: 20px;
+}
+
+.form-signin .btn{
+	background-color: #3c7870;
+  	color: #fff;
+  	border-color: #3c7870;
+}

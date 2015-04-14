@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="MySite">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="/public/javascripts/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js"></script>
+	<script type="text/javascript" src="/public/javascripts/controllers/mySiteController.js"></script>
+	<link rel="stylesheet" type="text/css" href="/public/stylesheets/mySiteController.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div ng-controller="mySiteControllerLogin" class="container con">
+		
+		<div class="row" ui-view>
+		</div>
+
+		
+		<!-- <div style="margin-left:auto;margin-right:auto;padding-left: 427px;padding-top:5px;"><a ui-sref="resetPassword">Reset Password</a></div> -->
+	</div>
+	<footer>fdfgdfgfd</footer>
+</body>
+</html>
+
